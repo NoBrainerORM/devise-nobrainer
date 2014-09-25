@@ -3,7 +3,7 @@ $:.unshift File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "nobrainer-devise"
-  s.version     = "0.2"
+  s.version     = "0.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nicolas Viennot"]
   s.email       = ["nicolas@viennot.biz"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency "devise",    ">= 3.2.2"
-  s.add_dependency "nobrainer", ">= 0.10.0"
+  s.add_dependency "nobrainer", ">= 0.17.0"
 
   s.files        = Dir["lib/**/*"] + ['README.md']
   s.require_path = 'lib'

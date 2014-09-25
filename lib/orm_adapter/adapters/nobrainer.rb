@@ -37,7 +37,7 @@ module NoBrainer
 
       # @see OrmAdapter::Base#create!
       def create!(attributes = {})
-        klass.create!(attributes)
+        klass.create(attributes)
       end
 
       # @see OrmAdapter::Base#destroy
