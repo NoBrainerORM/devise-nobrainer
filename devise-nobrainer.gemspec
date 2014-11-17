@@ -2,12 +2,12 @@
 $:.unshift File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "nobrainer-devise"
-  s.version     = "0.3"
+  s.name        = "devise-nobrainer"
+  s.version     = "0.4.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nicolas Viennot"]
   s.email       = ["nicolas@viennot.biz"]
-  s.homepage    = "http://github.com/nviennot/nobrainer-devise"
+  s.homepage    = "http://github.com/nviennot/devise-nobrainer"
   s.summary     = "NoBrainer adapter for Devise"
   s.description = "NoBrainer adapter for Devise"
   s.license     = 'MIT'
