@@ -15,12 +15,12 @@ module NoBrainer
 
       # @see OrmAdapter::Base#get!
       def get!(id)
-        klass.find!(wrap_key(id))
+        klass.find(wrap_key(id))
       end
 
       # @see OrmAdapter::Base#get
       def get(id)
-        klass.find(wrap_key(id))
+        klass.find?(wrap_key(id))
       end
 
       # @see OrmAdapter::Base#find_first
