@@ -1,7 +1,7 @@
 NoBrainer Devise Adapter
 ========================
 
-nobrainer-devise is an adapter to make
+devise-nobrainer is an adapter to make
 [Devise](https://github.com/plataformatec/devise/) work nicely with
 [NoBrainer](http://nobrainer.io).
 
@@ -11,7 +11,7 @@ Installation
 Include in your Gemfile:
 
 ```ruby
-gem 'nobrainer-devise'
+gem 'devise-nobrainer'
 ```
 
 Use devise as usual.
